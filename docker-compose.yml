@@ -1,7 +1,7 @@
-version: "3.9"
+version: "3.3"
 services:
   backend:
-    image: webapp:version
+    image: webapp:imageversion
     container_name: staticsite
     ports:
       - "7000:80"
